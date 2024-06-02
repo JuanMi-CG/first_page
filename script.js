@@ -16,31 +16,31 @@ document.addEventListener('DOMContentLoaded', function() {
                 <a class="contact-logo" href="https://www.linkedin.com/in/jmcoll/"><img src="images/linkedin.svg" alt="LinkedIn" style="width: 30px; height: 30px;"></a>
                 <a class="contact-logo" href="https://github.com/JuanMi-CG"><img src="images/github.png" alt="GitHub" style="width: 30px; height: 30px;"></a>
             </div>
-            <p>👋 Hi! I'm a <b>Data Engineer / Data Scientist - Test3</b></p>
+            <p>👋 Hi! I'm a <b>Data Engineer / Data Scientist</b></p>
             <button class="hire-me" id="hireMeButton">HIRE ME</button>
         </div>`,
         `<div class="section textlanding center-content">
             <h2>Technologies</h2>
             <div class="tech-logos">
-                <div class="tech-item" onclick="showModal('Excel', 'images/excel.webp', 'Excel es una herramienta poderosa para el análisis y visualización de datos.', ['Formulas', 'Macros', 'Pivot Tables'])">
+                <div class="tech-item" onclick="showModal('Excel', 'images/excel.webp', 'Excel is a powerful tool to analyze and visualize data.', ['Formulas', 'Macros', 'Pivot Tables'])">
                     <div class="tech-logo-container">
                         <img src="images/excel.webp" alt="Excel" class="tech-logo logo-excel">
                     </div>
                     <p class="tech-text tech-text-left">Excel</p>
                 </div>
-                <div class="tech-item" onclick="showModal('Python', 'images/python.png', 'Python es un lenguaje de programación versátil y potente para análisis de datos y machine learning.', ['Data Analysis', 'Machine Learning', 'Web Scraping'])">
+                <div class="tech-item" onclick="showModal('Python', 'images/python.png', 'Python is a versatile and powerful programming language for data analysis and machine learning.', ['Data Analysis', 'Machine Learning', 'Web Scraping'])">
                     <div class="tech-logo-container">
                         <img src="images/python.png" alt="Python" class="tech-logo logo-python">
                     </div>
                     <p class="tech-text tech-text-left">Python</p>
                 </div>
-                <div class="tech-item" onclick="showModal('SQL', 'images/sql.png', 'SQL es esencial para gestionar y consultar bases de datos relacionales.', ['Queries', 'Database Design', 'Stored Procedures'])">
+                <div class="tech-item" onclick="showModal('SQL', 'images/sql.png', 'SQL is essential for managing and querying relational databases.', ['Queries', 'Database Design', 'Stored Procedures'])">
                     <div class="tech-logo-container">
                         <img src="images/sql.png" alt="SQL" class="tech-logo logo-sql">
                     </div>
                     <p class="tech-text tech-text-right">SQL</p>
                 </div>
-                <div class="tech-item" onclick="showModal('PowerBI', 'images/powerbi.png', 'PowerBI es una herramienta de visualización de datos para crear dashboards e informes interactivos.', ['Dashboards', 'Reports', 'Data Modeling'])">
+                <div class="tech-item" onclick="showModal('PowerBI', 'images/powerbi.png', 'PowerBI is a data visualization tool for creating interactive dashboards and reports.', ['Dashboards', 'Reports', 'Data Modeling'])">
                     <div class="tech-logo-container">
                         <img src="images/powerbi.png" alt="PowerBI" class="tech-logo logo-powerbi">
                     </div>
