@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <a class="contact-logo" href="https://www.linkedin.com/in/jmcoll/"><img src="images/linkedin.svg" alt="LinkedIn" style="width: 30px; height: 30px;"></a>
                 <a class="contact-logo" href="https://github.com/JuanMi-CG"><img src="images/github.png" alt="GitHub" style="width: 30px; height: 30px;"></a>
             </div>
-            <p>👋 Hi! I'm a <b>Data Engineer / Data Scientist - Test2</b></p>
+            <p>👋 Hi! I'm a <b>Data Engineer / Data Scientist - Test3</b></p>
             <button class="hire-me" id="hireMeButton">HIRE ME</button>
         </div>`,
         `<div class="section textlanding center-content">
