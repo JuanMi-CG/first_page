@@ -22,4 +22,4 @@ jobs:
 
       - name: Sync S3 bucket
         run: |
-            aws s3 sync . s3://nombre-de-tu-bucket --delete --exclude ".*"
+            aws s3 sync . s3://jmcoll-buket-porfolio --delete --exclude ".*"
