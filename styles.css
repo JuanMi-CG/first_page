@@ -1,0 +1,279 @@
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    overflow: hidden;
+}
+
+#container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section, .textlanding {
+    opacity: 0;
+    position: relative;
+    animation: slideUp 1s forwards;
+    width: 100%;
+}
+
+.section {
+    color: #333;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.section h2 {
+    margin: 0 0 10px 0;
+}
+
+.section p {
+    margin: 0;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(100vh);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.textlanding {
+    padding: 20px;
+    margin: 10px 0;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textlanding p {
+    margin: 0;
+}
+
+.social-buttons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-buttons li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 35px;
+}
+
+.separator {
+    width: 90px;
+    height: 35px;
+    background-color: #333;
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.image-links {
+    margin: 20px 0;
+}
+
+.image-links a img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.tech-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.tech-logo-container {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.tech-logo-container:hover {
+    transform: scale(1.3);
+}
+
+.tech-logo {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.tech-text {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.3s ease;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tech-item:hover .tech-text {
+    display: block;
+    opacity: 1;
+}
+
+.tech-item:hover .tech-text-left {
+    right: 100%;
+    transform: translate(-5px, -50%);
+}
+
+.tech-item:hover .tech-text-right {
+    left: 100%;
+    transform: translate(5px, -50%);
+}
+
+.subtech-list {
+    padding: 10px;
+    margin: 5px 0 15px 15px;
+    background-color: #f9f9f9;
+    border-left: 2px solid #ccc;
+    display: none;
+}
+
+
+
+
+
+
+.tech-logo-container:hover .subtech-list {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.logo-excel {
+    width: 100%;
+    height: auto;
+}
+
+.logo-python {
+    width: auto;
+    height: 60%;
+}
+
+.logo-sql {
+    width: 90px;
+    height: auto;
+}
+
+.logo-powerbi {
+    width: 90%;
+    height: auto;
+}
+
+#salesChart {
+    width: 80% !important;
+    height: 200px !important;
+}
+
+.section {
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+}
+
+.contact-logo:hover img {
+    transform: scale(1.3);
+}
+
+.hire-me {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4083ca;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.hire-me:hover {
+    background-color: #4083ca;
+    transform: scale(1.2);
+}
+
+#mouseIndicator {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    background: transparent;
+    z-index: -1;
+}
+
+#arrow {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #333;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform-origin: center center;
+    z-index: -1;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 0.8em; /* Reducir el tamaño de la fuente */
+    color: #555;
+    background-color: transparent;
+    text-align: left; /* Centrar el texto a la izquierda */
+    margin-top: 5px; /* Establecer un margen superior de 5px */
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Interactivo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_modal.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="container"></div>
+
+    <div id="mouseIndicator">
+        <div id="arrow"></div>
+    </div>
+
+    <!-- Modal -->
+    <div id="techModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <img id="modalLogo" src="" alt="Technology Logo">
+                <h2 id="modalTitle"></h2>
+            </div>
+            <div class="modal-body">
+                <p id="modalDescription"></p>
+                <ul id="modalSubtechList"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="script_modal.js"></script>
+</body>
+</html>
