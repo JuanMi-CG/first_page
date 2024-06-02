@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <a class="contact-logo" href="https://github.com/JuanMi-CG"><img src="images/github.png" alt="GitHub" style="width: 30px; height: 30px;"></a>
             </div>
             <p>👋 Hi! I'm a <b>Data Engineer / Data Scientist</b></p>
-            <button class="hire-me" id="hireMeButton">HIRE ME</button>
+            <button class="hire-me" id="hireMeButton">CONTACT ME</button>
         </div>`,
         `<div class="section textlanding center-content">
             <h2>Technologies</h2>
@@ -198,3 +198,4 @@ document.addEventListener('mousemove', (e) => {
     arrow.style.top = `${arrowY - 10}px`;
     arrow.style.transform = `rotate(${angle + Math.PI / 2}rad)`;
 });
+
